@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width:100%;
+    margin:0;
+}
+.container{
+    width:90%;
+    height:100vh;
+margin:auto;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:30%;
+    width:450px;
+    background-color: black;
+}
+#timer{
+    font-size:60px;
+    font-weight: 600;
+    color:white;
+    text-align: center;
+}
+.grn{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.btn{
+    padding:10px 20px;
+    color:white;
+    border:none;
+    outline: none;
+    cursor:pointer;
+    margin-top:10px;
+}
